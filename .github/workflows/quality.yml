@@ -42,7 +42,7 @@ jobs:
         if: github.event_name == 'pull_request'
         uses: amannn/action-semantic-pull-request@v5
         env:
-          GITHUB_TOKEN: ${{ secrets.RELEASE_PLEASE_TOKEN_NEX }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Lint Commit Messages
         uses: wagoid/commitlint-github-action@v6
