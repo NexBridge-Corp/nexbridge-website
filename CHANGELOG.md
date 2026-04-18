@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.0](https://github.com/NexBridge-Corp/nexbridge-website/compare/v1.1.1...v1.2.0) (2026-04-18)
+
+
+### Features
+
+* implement multilingual support and enhance Navbar styles ([a4b2130](https://github.com/NexBridge-Corp/nexbridge-website/commit/a4b213060421819d9b5669293ac56f3c1945b9a4))
+* implement multilingual support with translation context and hooks; update sections to utilize translations for dynamic content ([3762f80](https://github.com/NexBridge-Corp/nexbridge-website/commit/3762f8087ca1a9ca05a40a27e0b68c8e543eee0c))
+
 ## [1.1.1](https://github.com/NexBridge-Corp/nexbridge-website/compare/v1.1.0...v1.1.1) (2026-04-18)
 
 
