@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.1](https://github.com/NexBridge-Corp/nexbridge-website/compare/v1.1.0...v1.1.1) (2026-04-18)
+
+
+### Bug Fixes
+
+* remove unused contact form component code ([701f2b6](https://github.com/NexBridge-Corp/nexbridge-website/commit/701f2b63d481a62806ad53d4ded67e29433edef2))
+* remove unused contact form component code ([79a172a](https://github.com/NexBridge-Corp/nexbridge-website/commit/79a172a0b10e7c8c6851bb9e82ceec95d9e05d0d))
+
 ## [1.1.0](https://github.com/NexBridge-Corp/nexbridge-website/compare/v1.0.0...v1.1.0) (2026-04-18)
 
 
