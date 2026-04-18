@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.1.0](https://github.com/NexBridge-Corp/nexbridge-website/compare/v1.0.0...v1.1.0) (2026-04-18)
+
+
+### Features
+
+* add recipient email to contact form submission ([870073b](https://github.com/NexBridge-Corp/nexbridge-website/commit/870073bd871b9b3777be36b65af9310bb89d1253))
+* implement contact form with email submission ([0024eb8](https://github.com/NexBridge-Corp/nexbridge-website/commit/0024eb83baa220ca26e3bbfd0ca709f861cc27b9))
+* implement contact form with submission handling and loading states ([d06ee60](https://github.com/NexBridge-Corp/nexbridge-website/commit/d06ee60564c4c2eb1c48ce54885a340467df30cf))
+
 ## 1.0.0 (2026-04-18)
 
 
