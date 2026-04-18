@@ -1,8 +1,11 @@
 import Button from '../components/ui/Button'
 import Container from '../components/ui/Container'
-import { SITE_NAME, SITE_SLOGAN, SITE_DESCRIPTION } from '../utils/constants'
+import { useTranslation } from '../hooks/useTranslation'
+import { SITE_NAME } from '../utils/constants'
 
 const Hero = () => {
+  const t = useTranslation()
+
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
       {/* Background effects */}
@@ -13,7 +16,7 @@ const Hero = () => {
       <Container className="relative z-10 py-32">
         <div className="max-w-3xl mx-auto text-center">
           <div className="inline-block mb-6 px-4 py-1.5 rounded-full border border-primary/30 bg-primary/5 text-primary text-sm font-medium">
-            Software &amp; Hardware Integration
+            {t.hero.badge}
           </div>
 
           <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-4">
@@ -22,20 +25,20 @@ const Hero = () => {
             </span>
           </h1>
 
-          <p className="text-xl md:text-2xl text-gray-300 font-light mb-6">
-            {SITE_SLOGAN}
+          <p className="text-xl md:text-2xl font-light mb-6" style={{ color: 'var(--color-text)', opacity: 0.7 }}>
+            {t.hero.slogan}
           </p>
 
-          <p className="text-gray-400 text-base md:text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
-            {SITE_DESCRIPTION}
+          <p className="text-base md:text-lg max-w-2xl mx-auto mb-10 leading-relaxed" style={{ color: 'var(--color-text)', opacity: 0.55 }}>
+            {t.hero.description}
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button href="#services" size="lg">
-              Explore Services
+              {t.hero.cta_services}
             </Button>
             <Button href="#contact" variant="outline" size="lg">
-              Get in Touch
+              {t.hero.cta_contact}
             </Button>
           </div>
         </div>

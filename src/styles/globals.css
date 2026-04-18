@@ -5,12 +5,61 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    --color-background: #0A0F1C;
+    --color-surface: #111827;
+    --color-border: #1F2937;
+    --color-text: #F9FAFB;
+  }
+
+  :root.light {
+    --color-background: #F1F5F9;
+    --color-surface: #FFFFFF;
+    --color-border: #E2E8F0;
+    --color-text: #0F172A;
+  }
+
+  /* Force readable text in light mode */
+  :root.light h1,
+  :root.light h2,
+  :root.light h3,
+  :root.light h4,
+  :root.light h5,
+  :root.light h6,
+  :root.light p,
+  :root.light span,
+  :root.light li,
+  :root.light label,
+  :root.light input,
+  :root.light textarea {
+    color: var(--color-text);
+  }
+
+  :root.light .text-white {
+    color: #0F172A !important;
+  }
+
+  :root.light .text-gray-100,
+  :root.light .text-gray-200,
+  :root.light .text-gray-300 {
+    color: #1E293B !important;
+  }
+
+  :root.light .text-gray-400 {
+    color: #475569 !important;
+  }
+
+  :root.light .text-gray-500 {
+    color: #64748B !important;
+  }
+
   html {
     scroll-behavior: smooth;
   }
 
   body {
-    @apply bg-background text-white font-sans antialiased;
+    @apply bg-background font-sans antialiased;
+    color: var(--color-text);
   }
 
   * {

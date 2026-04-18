@@ -4,13 +4,15 @@ export default {
     './index.html',
     './src/**/*.{js,ts,jsx,tsx}',
   ],
+  darkMode: 'class',
   theme: {
     extend: {
       colors: {
-        background: '#0A0F1C',
-        surface: '#111827',
-        border: '#1F2937',
+        background: 'var(--color-background)',
+        surface: 'var(--color-surface)',
+        border: 'var(--color-border)',
         primary: '#06B6D4',
+        'text-base': 'var(--color-text)',
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
