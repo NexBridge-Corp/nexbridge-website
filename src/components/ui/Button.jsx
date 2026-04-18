@@ -19,7 +19,7 @@ const Button = ({
   href,
   ...props
 }) => {
-  const classes = `inline-flex items-center justify-center font-semibold rounded-lg transition-all duration-300 ${variants[variant]} ${sizes[size]} ${className}`
+  const classes = `inline-flex items-center justify-center font-semibold rounded-lg transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed ${variants[variant]} ${sizes[size]} ${className}`
 
   if (href) {
     return (
