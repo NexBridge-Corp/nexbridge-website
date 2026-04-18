@@ -1,0 +1,11 @@
+:root {
+  --color-background: #0A0F1C;
+  --color-surface:    #111827;
+  --color-border:     #1F2937;
+  --color-primary:    #06B6D4;
+
+  --font-sans: 'Inter', sans-serif;
+
+  --spacing-section: 5rem; /* py-20 */
+  --max-width:        80rem; /* max-w-7xl */
+}
