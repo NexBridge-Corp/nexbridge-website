@@ -28,6 +28,7 @@ const Contact = () => {
           email: form.email,
           message: form.message,
           subject: `New message from ${form.name} — NexBridge`,
+          to: 'duego17@gmail.com',
         }),
       })
 
