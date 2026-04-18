@@ -5,12 +5,27 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    --color-background: #0A0F1C;
+    --color-surface: #111827;
+    --color-border: #1F2937;
+    --color-text: #F9FAFB;
+  }
+
+  :root.light {
+    --color-background: #F1F5F9;
+    --color-surface: #FFFFFF;
+    --color-border: #E2E8F0;
+    --color-text: #0F172A;
+  }
+
   html {
     scroll-behavior: smooth;
   }
 
   body {
-    @apply bg-background text-white font-sans antialiased;
+    @apply bg-background font-sans antialiased;
+    color: var(--color-text);
   }
 
   * {
