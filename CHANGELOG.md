@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.0](https://github.com/NexBridge-Corp/nexbridge-website/compare/v1.2.0...v1.3.0) (2026-04-18)
+
+
+### Features
+
+* refactor logo and update typography ([5ea23f0](https://github.com/NexBridge-Corp/nexbridge-website/commit/5ea23f0072fb989ffb999eaaace0efa3de18a1ce))
+* update typography by adding Outfit font for headings and logo; enhance Logo component with slogan support ([fc26456](https://github.com/NexBridge-Corp/nexbridge-website/commit/fc2645648a17d702ddf70087f920170b2b594d0a))
+
 ## [1.2.0](https://github.com/NexBridge-Corp/nexbridge-website/compare/v1.1.1...v1.2.0) (2026-04-18)
 
 
