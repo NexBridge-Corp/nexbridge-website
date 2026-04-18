@@ -12,6 +12,10 @@
     --color-text: #F9FAFB;
   }
 
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+
   :root.light {
     --color-background: #F1F5F9;
     --color-surface: #FFFFFF;
