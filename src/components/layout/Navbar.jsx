@@ -86,7 +86,7 @@ const Navbar = () => {
             {/* Mobile toggle */}
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="lg:hidden p-2 text-gray-400 hover:text-white"
+              className="lg:hidden p-2 text-gray-400 hover:text-primary"
               aria-label="Toggle menu"
             >
               <Icon name={isOpen ? 'x' : 'menu'} size={24} />
